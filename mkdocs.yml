@@ -1,0 +1,51 @@
+site_name: ZeroBot
+
+
+theme:
+  name: material
+  language: pt-BR
+  palette: 
+
+  # Palette toggle for light mode
+  - scheme: default
+    toggle:
+      icon: material/brightness-7 
+      name: Switch to dark mode
+
+  # Palette toggle for dark mode
+  - scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+  
+  primary: black
+
+  extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+copyright: >
+  Copyright &copy; 2023 - 2023 Carlinnn
+
+nav:
+  - Inicio:
+    - Quem sou?: index.md
+    - Objetivo: objetivo.md
+  - zerobot.net:
+    - zerobot.net: zerobot.net.md
+  - termos:
+    - temos: termos.md
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
